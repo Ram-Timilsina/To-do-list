@@ -11,12 +11,12 @@ body {
 
 .main {
   max-width: 600px;
-  margin: 0px auto;
+  margin: auto;
   background-color: #f7f7f7;
-  padding: 50px;
+  padding: 28px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-left: 25rem;
+  /* margin-top: 8rem; */
 }
 
 .input-container {
@@ -59,6 +59,15 @@ td {
   color: #777;
 }
 
-button:hover {
+.button:hover {
   background-color: #4511e3;
+  color: white;
+}
+button {
+  border: 2px solid rgb(26, 51, 215);
+  border-radius: 8px;
+  padding: 8px;
+}
+span {
+  padding-bottom: 8px;
 }
